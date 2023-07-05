@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+
+.card {
+    /* margin-left: 2%;
+    margin-right: 2%; */
+    background-image: linear-gradient(330deg, #00ff77 0%, #3700ff 100%);
+    border-radius: 20px;
+    border: none;
+    transition: all .3s;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117);
+}
+
+.submenu {
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: #333333;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    list-style: none;
+    z-index: 2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+
+    transition: all .2s;
+}
+
+.submenu:hover {
+    transform: scaleY(0.965) scaleX(0.995);
+    border-radius: 20px
+}
+
+
+.submenu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.subsubmenu {
+    font-size: 14px;
+    letter-spacing: 0px;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+.techListAll {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+
+}
+
+
+.techListBody {
+    display: grid;
+    background: #f2f2f200;
+}
+
+.wrapper {
+    /* position: absolute; */
+    height: 60px;
+    width: 98%;
+    margin: 1%;
+    background: #ffffff;
+    line-height: 60px;
+    border-radius: 50px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    place-items: center;
+    text-align: center;
+}
+
+.wrapper nav {
+    position: relative;
+    display: flex;
+}
+
+.wrapper nav label {
+    flex: 1;
+    width: 100%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.wrapper nav label a {
+    position: relative;
+    z-index: -1;
+    color: #1d1f20;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.6s ease;
+
+}
+
+/* .wrapper nav #home:checked~label.home a,
+.wrapper nav #inbox:checked~label.inbox a,
+.wrapper nav #contact:checked~label.contact a,
+.wrapper nav #heart:checked~label.heart a,
+.wrapper nav #about:checked~label.about a {
+    color: #fff;
+} */
+
+.wrapper nav label a i {
+    font-size: 25px;
+    margin: 0 7px;
+
+}
+
+.wrapper nav .tab {
+    position: absolute;
+    height: 95%;
+    width: 14%;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    margin-bottom: 0.3%;    
+    border-radius: 50px;
+    background: linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* .wrapper nav #inbox:checked~.tab {
+    left: 20%;
+}
+
+.wrapper nav #contact:checked~.tab {
+    left: 40%;
+}
+
+.wrapper nav #heart:checked~.tab {
+    left: 60%;
+}
+
+.wrapper nav #about:checked~.tab {
+    left: 80%;
+} */
+
+.wrapper nav input {
+    display: none;
+}

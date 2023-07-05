@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+
 import './App.css';
+import MyIntro from './Components/MyIntro/MyIntro';
+import AboutMe from './Components/AboutMe/AboutMe';
+import ProfileLinks from './Components/ProfileLinks/ProfileLinks';
+import CircularLinks from './Components/ProfileLinks/CircularLinks';
+import TechList from './Components/Tech/TechList';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <div className='bg'>
+        
+        {/* <ProfileLinks/> */}
+
+        {/* <CircularLinks/> */}
+        <TechList />
+        <MyIntro />
+        <AboutMe/>
+      </div>
     </div>
   );
 }
