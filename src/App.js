@@ -5,21 +5,26 @@ import AboutMe from './Components/AboutMe/AboutMe';
 import ProfileLinks from './Components/ProfileLinks/ProfileLinks';
 import CircularLinks from './Components/ProfileLinks/CircularLinks';
 import TechList from './Components/Tech/TechList';
+import ProjectList from './Components/Projects/ProjectList';
+import ExperienceList from './Components/Projects/ExperienceList';
 
 
 
 function App() {
   return (
     <div >
-      <div className='bg'>
+      {/* <div className='bg'> */}
         
         {/* <ProfileLinks/> */}
 
         {/* <CircularLinks/> */}
-        <TechList />
-        <MyIntro />
-        <AboutMe/>
-      </div>
+        {/* <TechList /> */}
+        {/* <MyIntro /> */}
+        {/* <AboutMe/> */}
+        
+        {/* <ProjectList/> */}
+        <ExperienceList/>
+      {/* </div> */}
     </div>
   );
 }
