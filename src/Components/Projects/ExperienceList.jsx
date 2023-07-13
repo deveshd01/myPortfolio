@@ -9,8 +9,6 @@ export default function ExperienceList() {
             duration: "5 Months",
             project: {
                 projectName: "Krushelligent: A sustainable App for Farmers",
-                startDate: "sept 21",
-                endDate: "Nov 21",
                 description: ["Developed android app with features Plant leaf Disease detection and cure suggestion, Weather forecasting",
                     "Used CNN and Transfer learning on Resnet 152v2 model to Detect Plant disease from the Images of plant leaf"
                 ],

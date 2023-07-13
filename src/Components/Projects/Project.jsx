@@ -6,7 +6,7 @@ export default function Project(p) {
         <div>
             <div>
                 <h3>{p.project.projectName}</h3>
-                <span>{p.project.startDate} - {p.project.endDate}</span>
+                {p.project.startDate!==undefined && <span>{p.project.startDate} - {p.project.endDate}</span>}
             </div>
             <ul>
                 {p.project.description.map((item, i) => {

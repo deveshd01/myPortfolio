@@ -1,4 +1,3 @@
-
 import './App.css';
 import MyIntro from './Components/MyIntro/MyIntro';
 import AboutMe from './Components/AboutMe/AboutMe';
@@ -7,7 +6,6 @@ import CircularLinks from './Components/ProfileLinks/CircularLinks';
 import TechList from './Components/Tech/TechList';
 import ProjectList from './Components/Projects/ProjectList';
 import ExperienceList from './Components/Projects/ExperienceList';
-
 
 
 function App() {
@@ -22,7 +20,7 @@ function App() {
         {/* <MyIntro /> */}
         {/* <AboutMe/> */}
         
-        {/* <ProjectList/> */}
+        <ProjectList/>
         <ExperienceList/>
       {/* </div> */}
     </div>
