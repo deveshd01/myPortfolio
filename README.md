@@ -1,4 +1,4 @@
-# This is my Portfolio site in React App
+# This is my Portfolio site in React JS
 
 currently i am developing it 
 
